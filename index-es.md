@@ -41,3 +41,13 @@ No creo que los Holandeses sean superhombres, pero mi color favorito es el naran
 
 Si eres el responsable del backend, tu jefe a partir de ahora será el backend. El podrá despedirte mucho antes que cualquier otra persona de la empresa.
 
+### Una implementación de este Zen
+
+1. Servidor web: Django
+1. Sistema de tareas en segundo plano: celery
+1. Base de datos relacional: Postgresql
+1. Base de datos no relacional: mongodb
+1. Middlewares que controlan el número de  peticiones a las bases de datos, el tiempo de estas, el incremento de la memoria y el tiempo global de la petición http.
+1. Decorador para cada tareas de celery que controla lo mismo que los middlewares
+
+
