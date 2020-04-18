@@ -2,6 +2,10 @@
 
 I am the CTO of [Joinup](https://joinup.es/) since early 2016, and by the end of the same year, we have a high availability (24x7) and high load backend (several thousand requests per minute). We are not on watch and we don’t have unexpected problems because we follow a list of basic rules: our Zen.
 
+### Spanish version
+
+There is a spanish version of this zen. Please click [here](/index-es.html) to go to spanish version
+
 ### Our zen
 
 Identify your bottlenecks.
