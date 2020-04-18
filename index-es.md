@@ -3,34 +3,41 @@
 Soy CTO de [Joinup](https://joinup.es/) desde principios de 2016. Desde finales de ese mismo año tenemos un backend de alta disponibilidad (24x7) y alta carga (varios miles de peticiones por minuto). No hacemos guardias, no tenemos problemas inesperados, y todo se lo debemos a seguir una serie de reglas básicas, todo se debe a seguir el siguiente zen.
 
 
-### Markdown
+### Nuestro zen
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Identifica tus cuellos de botella.
 
-```markdown
-Syntax highlighted code block
+Uno de los más comunes cuellos de botella son las bases de datos.
 
-# Header 1
-## Header 2
-### Header 3
+En cada petición HTTP debes de conocer, controlar y optimizar el número de consultas que se hacen a las bases de datos.
 
-- Bulleted
-- List
+Como no se pueden comparar peras con manzanas, por cada petición HTTP también hay que conocer, controlar y optimizar el tiempo total que tardan en ejecutarse todas las consultas a las bases de datos.
 
-1. Numbered
-2. List
+Las bases de datos relacionales no sirven para todo.
 
-**Bold** and _Italic_ and `Code` text
+Del mismo modo controla y optimiza el uso que se hace de la memoria en cada petición.
 
-[Link](url) and ![Image](src)
-```
+Si algo hace que suba la memoria… ¡estudialo!
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+La memoria es como los ahorros, si tienes memoria disponible en algún momento puedes gastarla en algún capricho, pero aún así no tengas muchos caprichos.
 
-### Jekyll Themes
+Por último controla el tiempo global de todas las peticiones. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/goinnn/zen-of-high-load-and-high-availability-backend/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Todas las peticiones a sistemas externos deben tener un timeout. Es mejor amputar un brazo que morir de gangrena.
 
-### Support or Contact
+Ten un sistema de tareas en segundo plano para que el primer plano (servidor web) sea lo más rápido posible.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Todas las peticiones a sistemas externos, siempre que sea posible, deben hacerse en segundo plano. 
+
+Y creeme la gran mayoría de las peticiones se pueden hacer en segundo plano. Puede que el usuario final pierda algo de información pero ganará un sistema robusto.
+
+Conoce, controla y optimiza en segundo plano lo mismo que en primer plano.
+
+No incumplas ninguna de estas normas por más que te tienten con una razón no técnica.
+
+Si la razón es técnica, reflexionala durante el tiempo suficiente.
+
+No creo que los Holandeses sean superhombres, pero mi color favorito es el naranja.
+
+Si eres el responsable del backend, tu jefe a partir de ahora será el backend. El podrá despedirte mucho antes que cualquier otra persona de la empresa.
+
