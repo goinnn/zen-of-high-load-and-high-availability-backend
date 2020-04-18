@@ -50,4 +50,3 @@ Si eres el responsable del backend, tu jefe a partir de ahora será el backend. 
 1. Middlewares que controlan el número de  peticiones a las bases de datos, el tiempo de las peticiones, el incremento de la memoria y el tiempo global de cada petición HTTP.
 1. Decorador para cada tareas de celery que controla lo mismo que los middlewares
 
-
