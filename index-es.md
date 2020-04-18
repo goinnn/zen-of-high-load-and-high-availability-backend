@@ -15,7 +15,7 @@ Como no se pueden comparar peras con manzanas, por cada petición HTTP también 
 
 Las bases de datos relacionales no sirven para todo.
 
-Del mismo modo controla y optimiza el uso que se hace de la memoria en cada petición.
+Del mismo modo debes controlar y optimizar el uso que se hace de la memoria en cada petición.
 
 Si algo hace que suba la memoria… ¡estudialo!
 
@@ -47,7 +47,7 @@ Si eres el responsable del backend, tu jefe a partir de ahora será el backend. 
 1. Sistema de tareas en segundo plano: celery
 1. Base de datos relacional: Postgresql
 1. Base de datos no relacional: mongodb
-1. Middlewares que controlan el número de  peticiones a las bases de datos, el tiempo de estas, el incremento de la memoria y el tiempo global de la petición http.
+1. Middlewares que controlan el número de  peticiones a las bases de datos, el tiempo de las peticiones, el incremento de la memoria y el tiempo global de cada petición HTTP.
 1. Decorador para cada tareas de celery que controla lo mismo que los middlewares
 
 
