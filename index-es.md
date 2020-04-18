@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Introducción
 
-You can use the [editor on GitHub](https://github.com/goinnn/zen-of-high-load-and-high-availability-backend/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Soy CTO de [Joinup](https://joinup.es/) desde principios de 2016. Desde finales de ese mismo año tenemos un backend de alta disponibilidad (24x7) y alta carga (varios miles de peticiones por minuto). No hacemos guardias, no tenemos problemas inesperados, y todo se lo debemos a seguir una serie de reglas básicas, todo se debe a seguir el siguiente zen.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
