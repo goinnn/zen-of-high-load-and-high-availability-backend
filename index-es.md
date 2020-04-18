@@ -2,6 +2,10 @@
 
 Soy CTO de [Joinup](https://joinup.es/) desde principios de 2016. Desde finales de ese mismo año tenemos un backend de alta disponibilidad (24x7) y alta carga (varios miles de peticiones por minuto). No hacemos guardias, no tenemos problemas inesperados, y todo se lo debemos a seguir una serie de reglas básicas, todo se debe a seguir el siguiente zen.
 
+### Versión en inglés
+
+Hay disponible una versión en inglés de este zen. Por favor clica [aquí](index.html) para ir a la versión en inglés.
+
 
 ### Nuestro zen
 
