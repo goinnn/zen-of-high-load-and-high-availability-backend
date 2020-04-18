@@ -41,7 +41,7 @@ I don’t believe the Dutch are super-men; however, orange is my favorite color.
 If you are responsible for the backend, you no longer report to your manager, you now report to the backend. Your backend can get you fired before your manager does. 
 
 
-### Una implementación de este Zen
+### Example of an implementation based on this Zen
 
 1. Web server: Django
 1. Task background system: celery
